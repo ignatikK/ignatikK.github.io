@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
-        max-width: 98vw;
+        max-width: auto;
     }
     .carousel__wrapper {
         max-width: 900px;
@@ -16,9 +16,6 @@
         margin: 0 auto;
         width: 98vw;
     }
-    .video__wrapper{
-        width: 98vw;
-    }
     .footer__links-item {
         margin-bottom: 23px;
         margin-left: 20px;
@@ -31,7 +28,6 @@
 @media (max-width: 992px) {
     .container {
         max-width: 720px;
-        max-width: 98vw;
     }
     .nav__item{
         font-size: 15px;
@@ -100,7 +96,6 @@
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
-        max-width: 98vw;
     }
     .nav__item {
         font-size: 11px;
@@ -172,6 +167,10 @@
     .video__title {
         font-size: 65px;
     }
+    .rules_text {
+        font-weight: 400;
+        font-size: 17px;
+    }
 }
 @media (max-width: 576px) {
     .container {
@@ -226,10 +225,10 @@
         margin-left: 40px;
         height: 25px;
     }
-    .header__form-form .header__btn{
-        height: 25px;
-        font-size: 10px;
-        width: 140px;
+    .header__form-form .header__btn {
+        height: 19px;
+        font-size: 7px;
+        width: 109px;
     }
     .header{
         min-height: 350px;
@@ -250,9 +249,10 @@
         font-size: 12px;
     }
     .carousel__item-text {
+        height: auto;
         font-size: 11px;
-        margin: 0px 5px 0px 5px;
-        line-height: 11px;
+        margin: 5px 5px 5px 5px;
+        line-height: 13px;
     }
     .dot {
         height: 15px;
@@ -331,6 +331,9 @@
         font-size: 14px;
         padding: 3px;
     }
+    .rules_text {
+        font-size: 12px;
+    }
     .rules__wrapper {
         width: 89vw;
     }
@@ -344,8 +347,8 @@
         width: 280px;
         height: 280px;
     }
-    .video__wrapper{
-        justify-content: space-between;
+    .video__wrapper {
+        justify-content: space-around;
     }
     .contacts__title {
         font-size: 41px;
@@ -378,5 +381,14 @@
     }
     .footer__subtitle {
         margin-top: 55px;
+    }
+    .price__block {
+        margin: 0 auto;
+        margin-top: 67px; 
+        max-width: 662px;
+        max-height: 100%;
+    }
+    .label-form{
+        display: block;
     }
 }
