@@ -7,14 +7,13 @@
         color: #625A4B;
         text-align: center;
         text-transform: uppercase;
-        
     }
     &__form{
         margin: 0 auto;
         text-align: center;
         &-form{
             margin-top: 43px;
-            .form-date-in{
+            .form-date-in-2{
                 width: 265px;
                 height: 81px;
                 margin-left: 30px;
@@ -27,7 +26,7 @@
                 box-shadow: 2.94545px 5.89091px 35.3455px rgba(0, 0, 0, 0.25);
                 border-radius: 30px;
             }
-            .form-date-out{
+            .form-date-out-2{
                 width: 265px;
                 height: 81px;
                 margin-left: 20px;
@@ -40,7 +39,7 @@
                 box-shadow: 2.94545px 5.89091px 35.3455px rgba(0, 0, 0, 0.25);
                 border-radius: 30px;
             }
-            .form-guest{
+            .form-guest-2{
                 width: 265px;
                 height: 81px;
                 margin-left: 20px;
@@ -188,4 +187,11 @@
   .nextt {
     right: 0;
     border-radius: 3px 0 0 3px;
+  }
+  .label-form2{
+    display: none;
+    position: relative;
+    font-size: 11px;
+    font-style: italic;
+    top: -76px;
   }
