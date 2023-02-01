@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav__wrapper">
+                    <ul class="nav__item">
+                        <li class="nav__item-items"><a href="#"> Главная</a></li>
+                        <li class="nav__item-items"><a href="#">О нас</a></li>
+                        <li class="nav__item-items"><a href="#">Номера и цены</a></li>
+                        <li class="nav__item-items"><a class="nav__item-logo"href="#"><img class="nav__item-img" src="img/logow.png" alt="logo"></a></li>
+                        <li class="nav__item-items"><a href="#">Контакты</a></li>
+                        <li class="nav__item-items"><a href="#">Правила проживания</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="header__title">ОТЕЛЬ&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; <br> В ДЕРБЕНТЕ&emsp;</h1>
+            <div class="header__form">
+                <form class="header__form-form modal-form" action="#">
+                    <input class="form-date-in"  type="date"  name="calendar" required >
+                    <input class="form-date-out" type="date" name="calendar" required> 
+                    <input class="form-guest" type="number" max="10" min="1" placeholder="1 гость" required>
+                    <button class="header__btn">забронировать</button>
+                </form>
+            </div>
+            <div class="header_wrapper-back"><img class="header__img" src="img/bg.png" alt="hotel"></div>
+            <div class="header_wrapper-bird-one"><img class="header_bird-one" src="img/ch2.png" alt="bird1"></div>
+            <div class="header_wrapper_plant"><img class="header_plant"src="img/flm.png" alt="plant"></div>
+        </div>
+    </header>
+    <div class="wrapper-bird-two"><img class="header_bird-two"src="img/ch1.png" alt="bird2"></div>
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title">О нас</h2>
+            <p class="about__subtitle">«Golden Beach» представляет собой современный гостиничный комплекс, способный удовлетворить ожидания даже самых опытных, требовательных и искушенных туристов.</p>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__wrapper">
+                <div class="carousel__block">
+                    <div class="carousel__item-img"><img src="img/slide1.png" alt="slide1"></div>
+                    <div class="carousel__item-text">«Golden Beach», находится в историческом городе Дербент республики Дагестан, и является, пожалуй лучшим семейным отелем на юге России, со своим аквапарком и песчаным пляжем. 
+                        <br><br>
+                    Мы предоставляем клиентам весь спектр услуг: на базе гостиничного комплекса есть не только пляж и аквапарк, а также имеется бассейн.
+                        </div>
+                </div>
+                <div class="carousel__block">
+                    <div class="carousel__item-img"><img src="img/slide2.png" alt="slide2"></div>
+                    <div class="carousel__item-text">Все номера гостиничного комплекса укомплектованы всем необходимым для семейного отдыха, любые удобства доступны для Вас в номерах нескольких категорий.</div>
+                </div>
+                <div class="carousel__block">
+                    <div class="carousel__item-img"><img src="img/slide3.png" alt="slide2"></div>
+                    <div class="carousel__item-text">Приезжайте к нам, и Вы сможете по достоинству оценить красоты наших мест, безукоризненный сервис. Мы окажем Вам радушный прием, и сделаем все для того. Чтобы Ваш отдых стал незабываемым!</div>
+                </div>
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+            </div>
+        </div>
+    </section>
+<div class="wrapper_bird_tree"><img class="bird-tree" src="img/bird3.png" alt="bird3"></div>
+    <section class="rating">
+        <div class="container">
+            <div class="rating__wrapper">
+                <div class="rating__items">
+                    <div class="rating__items_item big">Booking.com</div>
+                    <div class="rating__items_item">7.9/10</div>
+                </div>
+                <div class="rating__items">
+                    <div class="rating__items_item big">Yandex</div>
+                    <div class="rating__items_item">4.4/5</div>
+                </div>
+                <div class="rating__items">
+                    <div class="rating__items_item big">Ostrovok.ru</div>
+                    <div class="rating__items_item">8.5/10</div>
+                </div>
+                <div class="rating__items">
+                    <div class="rating__items_item big">101Hotels.com</div>
+                    <div class="rating__items_item">9.3/10</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="rating_img"><img class="rating_img-item"src="img/treeR.png" alt="tree"></div> -->
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <h2 class="price__title">номера и цены</h2>
+            <div class="price__form">
+                <form class="price__form-form modal-form" action="#">
+                    <input class="form-date-in"  type="date"  name="calendar" required >
+                    <input class="form-date-out" type="date" name="calendar" required> 
+                    <input class="form-guest" type="number" max="10" min="1" placeholder="1 гость" required>
+                </form>
+            </div>
+            <div class="price__block">
+                <div class="price__order">
+                    <div class="price__order-imgs">
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order1.png" alt="order1">
+                        </div>
+                        <!-- <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order2.png" alt="order2">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order3.png" alt="order3">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order4.png" alt="order4">
+                        </div> -->
+                        <!-- <div style="text-align:center">
+                            <span class="de" onclick="currentSlide(1)"></span>
+                            <span class="de" onclick="currentSlide(2)"></span>
+                            <span class="de" onclick="currentSlide(3)"></span>
+                            <span class="de" onclick="currentSlide(4)"></span>
+                          </div> -->
+                    </div>
+                    <h3 class="price__order-title">Стандарт ТВИН</h3>
+                    <div class="price__order-guest">
+                        <div class="price__order-guest-img">
+                            <img class="price__order-guest-img_img" src="icons/Frame1.png" alt="Frame1">
+                        </div>
+                        <div class="price__order-guest-text">
+                            до 2 мест
+                        </div>
+                    </div>
+                    <div class="price__order-place">
+                        <div class="price__order-place-img">
+                            <img class="price__order-place-img_img"src="icons/Frame2.png" alt="Frame2">
+                        </div>
+                        <div class="price__order-place-text">
+                            25 кв. м
+                        </div>
+                    </div>
+                    <button class="price__btn">
+                        забронировать
+                    </button>
+                </div>
+                <!-- <div class="price__order">
+                    <div class="price__order-imgs">
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order1.png" alt="order1">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order2.png" alt="order2">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order3.png" alt="order3">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order4.png" alt="order4">
+                        </div>
+                    </div>
+                    <h3 class="price__order-title">Стандарт 3</h3>
+                    <div class="price__order-guest">
+                        <div class="price__order-guest-img">
+                            <img class="price__order-guest-img_img" src="icons/Frame1.png" alt="Frame1">
+                        </div>
+                        <div class="price__order-guest-text">
+                            до 3 мест
+                        </div>
+                    </div>
+                    <div class="price__order-place">
+                        <div class="price__order-place-img">
+                            <img class="price__order-place-img_img"src="icons/Frame2.png" alt="Frame2">
+                        </div>
+                        <div class="price__order-place-text">
+                            30 кв. м
+                        </div>
+                    </div>
+                    <button class="price__btn">
+                        забронировать
+                    </button>
+                </div>
+                <div class="price__order">
+                    <div class="price__order-imgs">
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order1.png" alt="order1">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order2.png" alt="order2">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order3.png" alt="order3">
+                        </div>
+                        <div class="price__order-img">
+                            <img class="price__order-img_item" src="img/order4.png" alt="order4">
+                        </div>
+                    </div>
+                    <h3 class="price__order-title">Стандарт 4</h3>
+                    <div class="price__order-guest">
+                        <div class="price__order-guest-img">
+                            <img class="price__order-guest-img_img" src="icons/Frame1.png" alt="Frame1">
+                        </div>
+                        <div class="price__order-guest-text">
+                            до 4 мест
+                        </div>
+                    </div>
+                    <div class="price__order-place">
+                        <div class="price__order-place-img">
+                            <img class="price__order-place-img_img"src="icons/Frame2.png" alt="Frame2">
+                        </div>
+                        <div class="price__order-place-text">
+                            40 кв. м
+                        </div>
+                    </div>
+                    <button class="price__btn">
+                        забронировать
+                    </button>
+                </div> -->
+                <a class="prevv" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="nextt" onclick="plusSlides(1)">&#10095;</a>  
+            </div>
+        </div>
+    </section>
+
+    <section class="rules">
+        <div class="container">
+            <h3 class="rules__title">правила <br>
+                проживания</h3>
+                <div class="rules__wrapper">
+                    <button class="rules_btn">1. Общие положения</button>
+                    <div class="rules_item">
+                        <p class="rules_text">1.1. Настоящие правила разработаны в соответствии с Законом Российской Федерации «О защите прав потребителей» от 07.02.1992 N 2300-1, Постановлением Правительства Российской Федерации 
+                            «Об утверждении Правил предоставления гостиничных услуг в Российской Федерации» 
+                            от 09.10.2015г. N 1085 и иными федеральными и региональными 
+                            нормативно-правовыми актами, регулирующими деятельность гостиниц.
+                            <br>
+                            1.2. С Правилами проживания гости могут ознакомиться:
+                            <br>
+                            &ensp;&#183;&ensp;в информационной папке в номере отеля;
+                            <br>
+                            &ensp;&#183;&ensp;на официальном сайте отеля в разделе «Об отеле».
+                            <br>
+                            1.3. С Постановлением Правительства Российской Федерации 
+                            «Об утверждении Правил предоставления гостиничных услуг 
+                            в Российской Федерации» от 09.10.2015г. N 1085 гости могут ознакомиться в информационной папке в холле отеля.
+                            <br>
+                            1.4. В настоящие правила могут вноситься дополнения и изменения.
+                            <br>
+                            1.5. В случае задолженности по оплате отельных услуг (проживание, дополнительные услуги), не возмещенного материального ущерба, причиненного отелю при проживании ранее, при невозможности гарантировать оплату дополнительных услуг при размещении в отеле, 
+                            а также при отсутствии документов, обязательных к предъявлению 
+                            при заселении, отель вправе отказать гражданам в размещении.</p>
+                    </div>
+                    <button class="rules_btn">2. Бронирование номеров</button>
+                    <div class="rules_item">
+                        <p class="rules_text">
+                            2.1. Исполнитель предоставляет необходимую и достоверную информацию об отеле и услугах на сайте отеля в электронных системах и туристическим агентствам, с которыми у отеля заключен договор о сотрудничестве.
+                            <br>
+                            2.2. Исполнитель принимает заявки на бронирование посредством электронной связи, позволяющей достоверно установить, что заявка исходит от конкретного потребителя или посредством телефонной связи:
+                            <br>
+                            &ensp;&#183;&ensp;контакты для телефонной связи: +7 (928) 543 22 22, +7 (928) 553-77-77;<br>
+                            &ensp;&#183;&ensp;контакты для электронной связи: hotel-goldenbeach@mail.ru
+                            <br>
+                            2.3. При гарантированном бронировании отель ожидает гостя до 12:00 дня, следующего за днём запланированного заезда.
+                            <br>
+                            В случае отказа от бронирования менее чем:
+                            <br>
+                            &ensp;&#183;&ensp;за сутки до дня заезда в Низкий сезон,<br>
+                            &ensp;&#183;&ensp;за трое суток до дня заезда в Средний сезон,<br>
+                            &ensp;&#183;&ensp;за пятеро суток до дня заезда в Высокий сезон,<br>
+                            а также опоздания или не заезда гостя с него или с заказчика взимается плата за фактический простой номера, но не более чем за сутки. При опоздании более чем на сутки гарантированное бронирование аннулируется.
+                            <br>
+                            2.4. В случае предварительного гарантированного (оплаченного) бронирования при заезде гостя до расчетного часа (с 07:00 до 12:00) оплачивается 50% стоимости проживания в низкий и средний сезоны и 100% в высокий сезон, если заселение производится с 07:00 до 12:00. 
+                        </p>
+                    </div>
+                    <button class="rules_btn">3. Размещение гостей в отеле</button>
+                    <div class="rules_item">
+                        <p class="rules_text">
+                            3.1. Отель предназначен для временного проживания граждан на срок, указанный в заявке, или заявленный гостем при размещении, если поселение осуществляется без предварительного уведомления. Иностранные граждане могут быть размещены на срок действия визы и миграционной карты.
+                            <br>
+                            По истечении согласованного срока проживающий гражданин обязан освободить номер.
+                            <br>
+                            3.2. При необходимости продления срока проживания необходимо сообщить об этом администратору службы приема и размещения (стойки приема и размещения) отеля не позднее, чем за 3 часа до расчетного часа – 12 часов по местному времени. При наличии свободных номеров администратор службы приема и размещения по согласованию с отделом бронирования продлевает срок проживания.
+                            <br>
+                            3.3. Номер в отеле предоставляется гражданам РФ по предъявлении действительного документа, удостоверяющего личность согласно требованиям Законодательства РФ и оформленного в установленном порядке.
+                            <br>
+                            3.4. Номер в отеле предоставляется иностранным гражданам и лицам без гражданства по предъявлении:
+                            <br>
+                            &ensp;&#183;&ensp;паспорта иностранного гражданина либо иного документа, установленного федеральным законом или признанного в соответствии с международным договором РФ в качестве документа, удостоверяющего личность иностранного гражданина;<br>
+                            &ensp;&#183;&ensp;документа, выданного иностранным государством и признанного в соответствии с международным договором РФ в качестве документа, удостоверяющего личность лица без гражданства;<br>
+                            &ensp;&#183;&ensp;разрешения на временное проживание лица без гражданства;<br>
+                            &ensp;&#183;&ensp;вида на жительство лица без гражданства. <br>
+                            3.5. Общее количество проживающих гостей в номере должно соответствовать количеству мест в номере.
+                            <br>
+                            Постановка иностранного гражданина и лица без гражданства на учет по месту пребывания в гостинице и снятие их с учет осуществляется в соответствии с Правилами осуществления миграционного учета иностранных граждан и лиц без гражданства в РФ. Для иностранных граждан эта услуга является платной.
+                            <br>
+                            3.6. Расчетный час в гостинице — 12 часов по московскому времени. Время заезда – 14 часов по московскому времени.
+                        </p>
+                    </div>
+                    <button class="rules_btn">4. Оплата проживания</button>
+                    <div class="rules_item">
+                        <p class="rules_text">4.1. Плата за бронирование номеров в отеле составляет 50% от общей стоимости проживания.
+                            <br>
+                            4.2. Плата за проживание в отеле взимается в соответствии с расчетным часом. В случае задержки выезда потребителя плата за проживание взимается в следующем порядке:
+                            <br>
+                            &ensp;&#183;&ensp;с 12:00 до 18:00 – 50% от стоимости номера;<br>
+                            &ensp;&#183;&ensp;после 18:00 – 100% стоимости номера.
+                            4.3. Оплата за проживание и другие заказанные услуги производится в соответствии с действующим прейскурантом цен, утвержденным приказом Управляющего отелем.
+                            <br>
+                            4.4. Оплата может производиться авансовым перечислением средств за заказанные и подтвержденные услуги (до заезда гостя) или непосредственно в гостинице при заселении. Гостиница принимает оплату наличными рублевыми средствами или кредитной картой.
+                            <br>
+                            4.5. Отель принимает к оплате следующие кредитные карты: Visa, Master Card, American Express, Maestro.
+                            <br>
+                            4.6. Посещение проживающих третьими лицами допускается до 23:00. В случае, когда посетитель остается в номере после 23:00, отель оставляет за собой право выставить счет гостю на оплату дополнительного места и потребовать предоставления документа, удостоверяющего личность посетителя.
+                            <br>
+                            4.7. При выезде из отеля гость производит окончательный расчет за предоставленные основные и дополнительные услуги и сдает электронный ключ от номера администратору службы приема и размещения.</p>
+                    </div>
+                    <button class="rules_btn">5. Порядок проживания в отеле</button>
+                    <div class="rules_item">
+                        <p class="rules_text">5.1. Помимо оплачиваемых услуг отель предоставляет гостям следующие бесплатные услуги:
+                            <br>
+                            &ensp;&#183;&ensp;вызов скорой помощи;<br>
+                            &ensp;&#183;&ensp;вода;<br>
+                            &ensp;&#183;&ensp;доставка в номер корреспонденции по ее получении;<br>
+                            &ensp;&#183;&ensp;побудка к определенному времени;<br>
+                            &ensp;&#183;&ensp;вызов такси;<br>
+                            &ensp;&#183;&ensp;заказ столиков в ресторанах отеля и города;<br>
+                            &ensp;&#183;&ensp;услуги беспроводного интернета. <br>
+                            5.2. Деньги, ценные бумаги, драгоценности, необходимо оставлять в сейфе в номере или в сейфе ресепшн. При условии соблюдения настоящего правила, администрация гарантирует проживающим сохранность личных вещей.
+                            <br>
+                            5.3. Гостиница не несет ответственности за работу городских коммуникаций (отключение света, тепла, воды).
+                            <br>
+                            5.4. В течение проживания гостя уборка номера производится ежедневно. Смена полотенец – ежедневно, смена постельного белья – раз в трое суток. Дополнительная уборка номера и смена полотенец и постельного белья оплачиваются дополнительно в соответствии с прейскурантом гостиницы.
+                            <br>
+                            5.5. При обнаружении забытых гостем вещей в номере администрация принимает меры к возврату их владельцу. Если это сделать не удалось отель обеспечивает сохранность вещей до передачи их гостю или его доверенному лицу в течение трех месяцев.
+                            <br>
+                            5.6. Книга отзывов и предложений находится у администратора на стойке приема и размещения, и выдается по первой просьбе / первому требованию. Заявления и жалобы принимаются отелем в письменной форме и рассматриваются в установленном Законом порядке.
+                            
+                            </p>
+                    </div>
+                    <button class="rules_btn">6. Права и обязанности гостей</button>
+                    <div class="rules_item">
+                        <p class="rules_text">
+                            6.1. Потребитель имеет право:
+                            <br>
+                            &ensp;&#183;&ensp;запросить информацию о порядке получения бесплатных услуг в гостинице;<br>
+                            &ensp;&#183;&ensp;запросить перечень дополнительных услуг и действующих на них цен;<br>
+                            &ensp;&#183;&ensp;потребовать устранить недостаток, если ему предоставлена некачественная услуга, или уменьшения цены за некачественную услугу;<br>
+                            &ensp;&#183;&ensp;оставить отзыв о пребывании в гостинице, оценив все использованные им услуги. <br>
+                            6.2. Гость обязан:
+                            <br>
+                            &ensp;&#183;&ensp;оплатить все предоставленные ему услуги;<br>
+                            &ensp;&#183;&ensp;соблюдать установленные гостиницей правила и определенный порядок проживания;<br>
+                            &ensp;&#183;&ensp;соблюдать правила противопожарной безопасности, не допускать возникновения очагов пожара;<br>
+                            &ensp;&#183;&ensp;соблюдать общественный порядок в гостинице и в номере, не шуметь и не беспокоить других гостей после 23:00;<br>
+                            &ensp;&#183;&ensp;в случае обнаружения аварии электросетей, водо-теплоснабжающих сетей и иных технических, инженерных систем и оборудования гостиницы немедленно сообщить об этом администратору службы приема и размещения;<br>
+                            &ensp;&#183;&ensp;при уходе из номера закрыть водозаборные краны, окна, выключить свет, телевизор и другие электроприборы, закрыть номер;<br>
+                            &ensp;&#183;&ensp;возместить ущерб, причиненный имуществу гостиницы по своей вине в соответствии с действующим прейскурантом;<br>
+                            &ensp;&#183;&ensp;хранить деньги, ценные бумаги и драгоценности в сейфе в номере или сдавать их на ответственное хранение в службу приема и размещения гостей;<br>
+                            &ensp;&#183;&ensp;соблюдать установленный расчетный час при выезде. <br>
+                        </p>
+                    </div>
+                    <button class="rules_btn">7. Права и обязанности администрации отеля</button>
+                    <div class="rules_item">
+                        <p class="rules_text">7.1. Отель имеет право:
+                            <br>
+                            &ensp;&#183;&ensp;в случае невозможности предоставить потребителю номер в отеле переселить его по согласованию с ним в другой отель не ниже по уровню;<br>
+                            &ensp;&#183;&ensp;переселить потребителя в равнозначный номер в случае обнаружения необходимости произвести в его номере экстренный ремонт или проведения мероприятий по устранению причин, препятствующих его нормальному использованию;<br>
+                            &ensp;&#183;&ensp;выселить потребителя в случае нарушения им настоящих правил, несвоевременной оплаты предоставленных услуг или проявления в отношении персонала или других потребителей агрессии и других действий, угрожающих их безопасности или здоровью;<br>
+                            &ensp;&#183;&ensp;поместить вещи, оставленные потребителем в номере, подлежащем освобождению в связи с истечением оплаченного срока проживания, в камеру хранения. Такие действия производятся в присутствии представителя администрации гостиницы. <br>
+                            7.2. Отель обязан:
+                            <br>
+                            &ensp;&#183;&ensp;в случае переселения гостя в другой отель предоставить ему бесплатно автомобиль для его транспортировки в этот отель;<br>
+                            &ensp;&#183;&ensp;в случае выявления недостатков в номере, угрожающих безопасности гостя, срочно переселить его в другой номер без доплаты в равнозначный номер или в номер более высокой категории;<br>
+                            &ensp;&#183;&ensp;хранить забытые гостем вещи в течение трех месяцев, а ценные вещи и деньги в течение одного года с момента составления акта о забытых вещах;<br>
+                            &ensp;&#183;&ensp; обеспечивать конфиденциальность информации о потребителях и посетителях гостиницы;<br>
+                            &ensp;&#183;&ensp;не проводить шумных мероприятий во дворике после 23:00. <br>
+                            Благодарим Вас за выбор отеля «Golden Beach». Мы будем рады помочь Вам в решении любых возникающих вопросов.
+                            <br>
+                            С уважением,
+                            <br>
+                            Администрация отеля «Golden Beach».
+                            <br>
+                            Приятного Вам отдыха!
+                            
+                            </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <div class="container">
+            <h3 class="video__title">Отзывы наших гостей</h3>
+            <div class="video__wrapper">
+                <div class="video__item">
+                    <video controls height="300" width="300" src="video/video1.mp4"></video> 
+                </div>
+                <div class="video__item">
+                    <video controls height="300" width="300" src="video/video2.mp4"></video>
+                </div>
+                <div class="video__item">
+                    <video controls height="300" width="300" src="video/video3.mp4"></video>
+                </div>
+                <div class="video__item">
+                    <video controls height="300" width="300" src="video/video4.mp4"></video>
+                </div>
+                <div class="video__item">
+                    <video controls height="300" width="300" src="video/video5.mp4"></video>
+                </div>
+                <div class="video__item">
+                    <video controls height="300" width="300" src="video/video6.mp4"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <img class="birdi"src="img/birdi.png" alt="birdi">
+            <h3 class="contacts__title">
+                контакты
+            </h3>
+            <div class="contacts__wrapper">
+                <div class="contacts__item">
+                    <div class="contacts__item-img">
+                        <img src="icons/Frame1.svg" alt="geo">
+                    </div>
+                    <div class="contacts__item-text">
+                        Республика Дагестан <br>
+                        г. Дербент, ул, Шеболдаева 5А
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item-img">
+                        <img src="icons/Frame2.svg" alt="tel">
+                    </div>
+                    <div class="contacts__item-text">
+                        <a href="tel:+89285432222">8(928)543-2222</a>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item-img">
+                        <img src="icons/Frame3.svg" alt="mail">
+                    </div>
+                    <div class="contacts__item-text">
+                       <a href="#">hotel-goldenbeach@mail.ru</a>
+                    </div>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__item-img">
+                        <img src="icons/Frame4.svg" alt="inn">
+                    </div>
+                    <div class="contacts__item-text">
+                        ИНН: 0542017766 <br>
+                        БИК: 040702615
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__links">
+                <div class="footer__links-item"><a href="">Главная</a></div>
+                <div class="footer__links-item"><a href="">О нас</a></div>
+                <div class="footer__links-item"><a href="">Номера и цены</a></div>
+                <div class="footer__links-item"><a href="">Контакты</a></div>
+                <div class="footer__links-item"><a href="">Правила проживания</a></div>
+            </div>
+            <div class="footer__subtitle">© 2022 All Rights Reserved.</div>
+        </div>
+        
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

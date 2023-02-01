@@ -1,0 +1,44 @@
+.nav{
+    max-height: 94px;
+    &__wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    &__item{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;
+        color: #f00606;
+        :nth-child(4){
+            margin-right: 58px;
+            margin-left: 17px;
+        }
+        :last-child{
+            margin: 0;
+        }
+        &-items{
+            margin-right: 40px;
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        &-logo{
+            padding: 0;
+            width: 170px;
+            height: 94px;
+        }
+        &-img{
+            padding: 0;
+            width: 170px;
+            height: 94px;
+        }
+    }
+
+}

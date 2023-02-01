@@ -1,0 +1,73 @@
+.carousel{
+    margin: 0 auto;
+    position: relative;
+    &__wrapper{
+        max-width: 1040px;
+        max-height: 575px;
+        margin: 0 auto;
+        
+    }
+    &__block{
+        
+        grid-template-columns: 1fr 1fr;
+        display: none;
+        max-width: 1040px;
+        max-height: 575px;
+        background: #FBF8F4;
+        border-radius: 30px;
+        border: 5px solid #F4EFE8;
+    }
+    &__item-img{
+        max-width: 581px;
+        height: auto;
+        border-radius: 30px;
+        margin: 0 auto;
+        
+        img{
+            max-width: 581px;
+            max-height: 565px;
+            border-radius: 30px;
+            
+        }   
+    }
+    &__item-text{
+        display: block;
+        margin: 88px 22px 81px 19px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 34px;
+        color: #7A7771;
+    }
+}
+.dot-container {
+    text-align: center;
+    margin-top:  27px;
+}
+.dot {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border: 1px solid #AAA59F;
+}
+.active, .dot:hover {
+    background-color:  #AAA59F;
+  }
+.wrapper_bird_tree{
+    position: absolute;
+    top: 1800px;
+    left: -7%;
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+    z-index: 101;
+    img{
+        width: 100%;
+        max-width: 310px;
+        height: auto;
+    }
+}

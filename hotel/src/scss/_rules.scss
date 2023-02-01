@@ -1,0 +1,63 @@
+.rules{
+    margin: 0 auto;
+    margin-top: 251px;
+    &__title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 76px;
+        text-transform: uppercase;
+        color:#B6AFA3;
+    }
+    &__wrapper{
+        margin-top: 92px;
+        :first-child{
+            border-top:none;
+        }
+
+    }
+    &_btn{
+        font-weight: 500;
+        font-size: 35px;
+        background:none;
+        color: #7A7771;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        border-top: 1px solid #D4CFC5;
+        border-bottom: 1px solid #D4CFC5;
+    }
+    &_item{
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+    &_text{
+        font-weight: 400;
+        font-size: 27px;
+        color:#7A7771;
+        li{
+            font-weight: 400;
+            font-size: 27px;
+            color:#7A7771;
+        }
+    }
+}
+.active1, .btn:hover {
+    content: '';
+}
+.rules_btn:after {
+    content: '\2228'; /* Unicode character for "plus" sign (+) */
+    font-size: 21px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after {
+    content: "\2227"; /* Unicode character for "minus" sign (-) */
+}

@@ -1,0 +1,45 @@
+.rating{
+    margin: 0 auto;
+    margin-top: 214px;
+    // position: relative;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        max-width: 1040px;
+        max-height: 179px;
+        background-color:#FBF8F4;
+        border: 5px solid #DBD5CE;
+        border-radius: 30px;
+        :last-child{
+            border-right:none;
+        }
+    }
+    &__items{
+        margin-top: 56px;
+        border-right: 1px solid #7A7771;
+        margin-bottom: 55px;
+        &_item{
+            font-weight: 400;
+            font-size: 20px;
+            color: #7A7771;
+            
+        }
+    }
+    // &_img{
+    //     position: relative;
+    //     &-item{
+    //         position: absolute;
+    //         width: 100%;
+    //         max-width: 930px;
+    //         height: auto;
+    //         max-height: 615px;
+    //         background:none;
+    //     }
+    // }
+}
+.big{
+    font-weight: 500;
+}

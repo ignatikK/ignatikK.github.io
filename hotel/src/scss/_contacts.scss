@@ -1,0 +1,50 @@
+.contacts{
+    margin-top: 137px;
+    position: relative;
+    &__title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 76px;
+        color:#B6AFA3;
+        text-transform: uppercase;
+    }
+    &__wrapper{
+        margin: 0 auto;
+        margin-top: 75px;
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        :first-child{
+            margin-top: 0;
+        }
+    }
+    &__item{
+        display: flex;
+        flex-direction: row;
+        margin-top: 44px;
+        
+        &-img{
+            
+            width: 56px;
+            height: 56px;
+        }
+        &-text{
+            margin-left: 22px;
+            font-weight: 400;
+            font-size: 25px;
+            color: #7A7771;
+            
+            a{
+                color: #7A7771;
+            }
+        }
+    }
+    .birdi{
+        width: 285px;
+        position: absolute;
+        height: 345px;
+        top: -22%;
+        left: 20%;
+        z-index: -1;
+    }
+}

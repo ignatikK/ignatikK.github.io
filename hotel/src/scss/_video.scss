@@ -1,0 +1,31 @@
+.video{
+    margin-top: 137px;
+    &__title{
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 76px;
+        color: #625A4B;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__wrapper{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: stretch;
+    }
+    &__item{
+        width: auto;
+        height: auto;
+        background-color: #FBF8F4;
+        border: 5px solid #DBD5CE;
+        margin: 2px;
+        video{
+            width: 300px;
+            height: 300px;
+        }
+    }
+}

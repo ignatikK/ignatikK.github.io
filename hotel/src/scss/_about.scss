@@ -1,0 +1,20 @@
+.about{
+    min-height: 415px ;
+    background:#ffffff;
+    text-align: center;
+    margin-top: 87px;
+    &__title{
+        background:#ffffff;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 76px;
+        color: #7A7771;
+    }
+    &__subtitle{
+        margin-top: 33px;
+        font-weight: 400;
+        font-size: 25px;
+        color: #7A7771;
+
+    }
+}

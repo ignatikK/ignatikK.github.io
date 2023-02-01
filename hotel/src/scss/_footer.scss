@@ -1,0 +1,23 @@
+.footer{
+    margin: 0 auto;
+    margin-top: 378px;
+    font-weight: 500;
+    font-size: 26px;
+    background-color: #D9D7D1;
+    &__links{
+        padding-top: 53px;
+        &-item{
+            margin-bottom: 23px;
+        }
+    }
+    a{
+        text-decoration: none;
+        color:#ffffff;
+    }
+    &__subtitle{
+        margin-top: 112px;
+        padding-bottom: 33px;
+        text-align: center;
+        color: #ffffff;
+    }
+}
