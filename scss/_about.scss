@@ -1,0 +1,26 @@
+.about{
+    margin: 0 auto;
+    background: #F6F6F6;
+    &__wrapper{
+        max-width: 450px;
+        margin: 120px auto 0 auto;
+        padding-bottom: 100px;
+    }
+    &__title{
+        padding-top: 120px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 34px;
+        color: #070707;
+    }
+    &__descr{
+        margin-top: 18px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #070707;
+        
+    }
+
+}

@@ -1,0 +1,47 @@
+.skills{
+    margin: 0 auto;
+    margin-top: 91px;
+    &__title{
+        text-align: center;
+        font-size: 34px;
+        color: #070707;
+        font-weight: 700;
+    }
+    &__descr{
+        margin-top: 69px;
+        text-align: center;
+        font-size: 18px;
+        color: #070707;
+        font-weight: 500;
+    }
+    &__items{
+        margin-top: 84px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 110px;
+        &-item{
+            margin-left: 45px;
+            margin-right: 45px;
+            text-align: center;
+        }
+
+    }
+    &__item-img{
+        width: 90px;
+        height: 90px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__item-subtitle{
+        text-align: center;
+        margin-top: 24px;
+        font-size: 14px;
+        color: #828282;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+
+    }
+}

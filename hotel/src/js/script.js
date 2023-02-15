@@ -1,3 +1,23 @@
+window.addEventListener('DOMContentLoaded', () => {
+  const menu = document.querySelector('.nav__item'),
+  menuItem = document.querySelectorAll('.nav__item'),
+  hamburger = document.querySelector('.hamburger');
+
+  hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('hamburger_active');
+      menu.classList.toggle('nav__item_active');
+  });
+
+  menuItem.forEach(item => {
+      item.addEventListener('click', () => {
+          hamburger.classList.toggle('hamburger_active');
+          menu.classList.toggle('nav_active');
+      })
+  })
+})
+
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -43,6 +63,9 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+
 
 
 

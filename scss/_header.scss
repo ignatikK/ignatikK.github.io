@@ -1,0 +1,49 @@
+.header{
+    margin: 0 auto;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 40px;
+    }
+    &__title{
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 48px;
+        color: #070707;
+    }
+    &__subtitle{
+        font-weight: 500;
+        font-size: 18px;
+        color: #070707;
+    }
+    &__lang{
+        font-weight: 700;
+        font-size: 16px;
+        color: #828282;
+        transform: rotate(-90deg) translate(30px, 24px);
+        :nth-child(2){
+            content: '';
+            color:#070707;
+        }
+        :hover, :focus{
+            content: '';
+            color:#070707;
+        }
+        a{
+            text-decoration: none;
+            color:#828282;
+        }
+    }
+    &__back{
+        margin: 0 auto;
+        margin-top: 35px;
+        margin-bottom: 104px;
+        width: 100%;
+        height: 100%;
+        &-img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

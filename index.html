@@ -4,14 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ignat Kozlov</title>
+    <title>Ihnat Kozlov</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello world</h1>
-        <a href="hotel/src/index.html">hotel</a>
-    </div>
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav__wrapper">
+                <li class="nav_item active"><a class="nav_item-link" href="#header">Home</a></li>
+                <li class="nav_item"><a class="nav_item-link" href="#about">About me</a></li>
+                <li class="nav_item"><a class="nav_item-link" href="#skills">Skills</a></li>
+                <li class="nav_item"><a class="nav_item-link" href="#port">Portfolio</a></li>
+                <li class="nav_item"><a class="nav_item-link" href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <h1 class="header__title">
+                    Ihnat <br> Kozlov
+                </h1>
+                <div class="header__subtitle">
+                    Frontend-developer <br>
+                    24 years old, Homel
+                </div>
+                <div class="header__lang">
+                    <a class="header__lang-ru active" href="#">RU</a>
+                    <span>|</span>
+                    <a class="header__lang-eng"href="#">ENG</a>
+                </div>
+            </div>
+            <div class="header__back">
+                <img class="header__back-img" src="img/headerBG.png" alt="background">
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <article class="about__wrapper">
+                <h2 class="about__title">
+                    About me
+                </h2>
+                <p class="about__descr">
+                    Hi, I'm Ignat – Frontend-developer from Belarus.
+                     <br>
+                    I am interested in web-development and everything connected with it.
+                    <br><br>
+                    Ready to implement excellent projects
+                    with wonderful people.
+                </p>
+            </article>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="skills__title">Skills</h2>
+            <p class="skills__descr">I work in such programs as</p>
+            <div class="skills__items">
+                <div class="skills__items-item">
+                    <div class="skills__item-img"><img src="icons/html5.svg" alt="html"></div>
+                    <div class="skills__item-subtitle">html5</div>
+                    
+                </div>
+                <div class="skills__items-item">
+                    <div class="skills__item-img"><img src="icons/css3.svg" alt="css"></div>
+                    <div class="skills__item-subtitle">css</div>
+                    
+                </div>
+                <div class="skills__items-item">
+                    <div class="skills__item-img"><img src="icons/sass-1.svg" alt="sass"></div>
+                    <div class="skills__item-subtitle">sass</div>
+                    
+                </div>
+                <div class="skills__items-item">
+                    <div class="skills__item-img"><img src="icons/js.svg" alt="js"></div>
+                    <div class="skills__item-subtitle">js</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="port" id="port">
+        <div class="container">
+            <h2 class="port__title">Portfolio</h2>
+            <a class="port__link" href="hotel/src/index.html"><img class="port__link-img" src="img/hotel.png" alt="hotel"></a>
+            <a class="port__links" href="hotel/src/index.html">Landing Page hotel</a>
+            <a class="port__link" href="pulse/src/index.html"><img class="port__link-img" src="img/pulse.png" alt="pulse"></a>
+            <a class="port__links" href="pulse/src/index.html">Landing Page</a>
+            <a class="port__link" href=""><img class="port__link-img" src="img/link3.png" alt=""></a>
+            <a class="port__links end" href="#">Braun Landing Page - Concept</a>
+        </div>
+    </section>
+    <footer class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="contacts__title">Contacts</h2>
+            <div class="contacts__subtitle">Want to know more or just chat? 
+                You are welcome!</div>
+            <button class="contacts__btn">Send message</button>
+            <div class="contacts__social">
+                <a class="contacts__social_item center" href="#"><img class="contacts__social_item-img" src="icons/github.svg" alt="github"></a>
+                <a class="contacts__social_item center" href="#"><img class="contacts__social_item-img" src="icons/instagram.svg" alt="instagram"></a>
+                <a class="contacts__social_item" href="#"><img class="contacts__social_item-img" src="icons/telegram.svg" alt="telegram"></a>
+                <a class="contacts__social_item" href="#"><img class="contacts__social_item-img" src="icons/bi.svg" alt="behance"></a>
+            </div>
+            <div class="contacts__descr">Like me on <br>
+                GitHub, Instagram, Telegram, Behance, </div>
+        </div>
+    </footer>
 </body>
 </html>

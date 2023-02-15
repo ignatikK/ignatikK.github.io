@@ -1,3 +1,18 @@
+html{
+    font-family: 'Gilroy' sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
 .container{
     margin: 0 auto;
+    max-width: 940px;
 }
+
+@import '../scss/nav.scss';
+@import '../scss/header.scss';
+@import '../scss/var.scss';
+@import '../scss/about.scss';
+@import '../scss/skills.scss';
+@import '../scss/port.scss';
+@import '../scss/contacts.scss';

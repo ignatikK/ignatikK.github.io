@@ -13,15 +13,20 @@
         <nav class="nav">
             <div class="container">
                 <div class="nav__wrapper">
-                    <ul class="nav__item">
-                        <li class="nav__item-items"><a href="#"> Главная</a></li>
-                        <li class="nav__item-items"><a href="#">О нас</a></li>
-                        <li class="nav__item-items"><a href="#">Номера и цены</a></li>
-                        <li class="nav__item-items"><a class="nav__item-logo"href="#"><img class="nav__item-img" src="img/logow.png" alt="logo"></a></li>
-                        <li class="nav__item-items"><a href="#">Контакты</a></li>
-                        <li class="nav__item-items"><a href="#">Правила проживания</a></li>
+                    <ul class="nav__item ">
+                        <li class="nav__item-items"><a class="nav__item-link" href="#"> Главная</a></li>
+                        <li class="nav__item-items"><a class="nav__item-link" href="#about">О нас</a></li>
+                        <li class="nav__item-items"><a class="nav__item-link" href="#price">Номера и цены</a></li>
+                        <li class="nav__item-items"><a class="nav__item-logo nav__item-link"href="#"><img class="nav__item-img" src="img/logow.png" alt="logo"></a></li>
+                        <li class="nav__item-items"><a class="nav__item-link" href="#contacts">Контакты</a></li>
+                        <li class="nav__item-items"><a class="nav__item-link" href="#rules">Правила проживания</a></li>
                     </ul>
                 </div>
+                <div class="hamburger ">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             </div>
         </nav>
         <div class="container">
@@ -43,7 +48,7 @@
         </div>
     </header>
     <div class="wrapper-bird-two"><img class="header_bird-two"src="img/ch1.png" alt="bird2"></div>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h2 class="about__title">О нас</h2>
             <p class="about__subtitle">«Golden Beach» представляет собой современный гостиничный комплекс, способный удовлетворить ожидания даже самых опытных, требовательных и искушенных туристов.</p>
@@ -101,7 +106,7 @@
         <!-- <div class="rating_img"><img class="rating_img-item"src="img/treeR.png" alt="tree"></div> -->
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <h2 class="price__title">номера и цены</h2>
             <div class="price__form">
@@ -120,7 +125,7 @@
                         <div class="price__order-img">
                             <img class="price__order-img_item" src="img/order1.png" alt="order1">
                         </div>
-                        <!-- <div class="price__order-img">
+                        <!-- <div class="price__order-img"> 
                             <img class="price__order-img_item" src="img/order2.png" alt="order2">
                         </div>
                         <div class="price__order-img">
@@ -128,8 +133,8 @@
                         </div>
                         <div class="price__order-img">
                             <img class="price__order-img_item" src="img/order4.png" alt="order4">
-                        </div> -->
-                        <!-- <div style="text-align:center">
+                        </div> 
+                        <div style="text-align:center">
                             <span class="de" onclick="currentSlide(1)"></span>
                             <span class="de" onclick="currentSlide(2)"></span>
                             <span class="de" onclick="currentSlide(3)"></span>
@@ -235,7 +240,7 @@
         </div>
     </section>
 
-    <section class="rules">
+    <section class="rules" id="rules">
         <div class="container">
             <h3 class="rules__title">правила <br>
                 проживания</h3>
@@ -427,7 +432,7 @@
         </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
         <div class="container">
             <img class="birdi"src="img/birdi.png" alt="birdi">
             <h3 class="contacts__title">
@@ -456,7 +461,7 @@
                         <img src="icons/Frame3.svg" alt="mail">
                     </div>
                     <div class="contacts__item-text">
-                       <a href="#">hotel-goldenbeach@mail.ru</a>
+                       <a href="mailto:hotel-goldenbeach@mail.ru">hotel-goldenbeach@mail.ru</a>
                     </div>
                 </div>
                 <div class="contacts__item">

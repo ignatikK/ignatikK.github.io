@@ -1,0 +1,31 @@
+.port{
+    margin: 0 auto;
+    background: #F6F6F6;
+    &__title{
+        padding-top: 112px;
+        text-align: center;
+        font-size: 34px;
+        color: #070707;
+        font-weight: 700;
+    }
+    &__link{
+        display: block;
+        width: 100%;
+        margin-top: 47px;
+        &-img{
+            width: 100%;
+        }
+    }
+    &__links{
+        display: block;
+        margin-top: 45px;
+        margin-bottom: 44px;
+        text-align: center;
+        color: #070707;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+.end{
+    padding-bottom: 96px;
+}
